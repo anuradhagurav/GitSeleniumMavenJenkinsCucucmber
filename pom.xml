@@ -3,4 +3,28 @@
   <groupId>com.selenium</groupId>
   <artifactId>GitSeleniumMavenJenkinsCucucmber</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+  		<groupId>com.selenium</groupId>
+  		<artifactId>TestingSelenium</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  	
+  	<!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.1</version>
+    <scope>test</scope>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
+</dependencies>
+
 </project>
