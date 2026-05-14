@@ -13,12 +13,12 @@ public class GoogleSearch {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-//	private By searchBox = By.name("q");
+	private By searchBox = By.name("q");
 //
-//	public void EnterKeyword(String keyword) {
-//		driver.findElement(searchBox).sendKeys(keyword);
-//		driver.findElement(searchBox).sendKeys(Keys.ENTER);
-//	}
+	public void EnterKeyword(String keyword) {
+		driver.findElement(searchBox).sendKeys(keyword);
+		driver.findElement(searchBox).sendKeys(Keys.ENTER);
+	}
 	
 	
 	@FindBy(id="name")
